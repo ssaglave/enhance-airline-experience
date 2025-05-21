@@ -1,6 +1,6 @@
 **Title:** Enhanced Airline Customer Experience through Sentiment-Driven Topic Modeling and Actionable Insights. 
  
-**Project Description:** Built a topic modeling system that can be used to provide recommendations to enhance customer satisfaction based on negative reviews from British Airlines Customer Reviews. This system will perform sentiment analysis on all airline reviews to determine positive and negative reviews from customers. Next, negative reviews are used to determine the nature of the issue and group them into related common problems and provide topics. These labels/topics would then be used to provide actionable recommendations to improve service quality. 
+**Project Description:** Built a topic modeling system that can be used to provide recommendations to enhance customer satisfaction based on negative reviews from British Airlines Customer Reviews. This system will perform sentiment analysis on all airline reviews to determine positive and negative reviews from customers. Next, negative reviews are used to determine the nature of the issue and group them into related common problems and provide topics. These labels/topics are used to provide actionable recommendations to improve service quality. 
  
 **Data sources:** Kaggle link (https://www.kaggle.com/datasets/chaudharyanshul/airline-reviews)
  
@@ -31,7 +31,7 @@ Compare manual topics with BERT topics using:
 •	BERT score (precision, recall, F1 score) 
  
 **6.	Future work:** 
-Explore generating recommendations/improvement suggestions based on identified topics using GPT-4 or LLMs.  
+Explored generating recommendations/improvement suggestions based on identified topics using Flan/XL.  
  
 **Computational Resources:**  
 Used Hugging Face’s transformers (BERT, RoBERTa and BERTopic) and open-source Label Studio for custom topic labeling.
