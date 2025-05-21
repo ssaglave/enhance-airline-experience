@@ -7,28 +7,28 @@
 **Project Pipeline:**
  
 **1.	Data Preprocessing:**  
-•	Performed cleaning on the data by removing special characters, numbers, and stop words. 
-•	Tokenizing and lemmatizing the reviews for better analysis. 
+* Performed cleaning on the data by removing special characters, numbers, and stop words. 
+* Tokenizing and lemmatizing the reviews for better analysis. 
  
 **2.	Sentiment Analysis:**
-•	Classify reviews as positive or negative. 
-•	Model#1 used BERT. 
-•	Model#2 used RoBERTa.
-•	Evaluation metrics: Accuracy, Precision, Recall, and F1 score. (using recommended column as gold labels for this task) 
+* Classify reviews as positive or negative. 
+* Model#1 used BERT. 
+* Model#2 used RoBERTa.
+* Evaluation metrics: Accuracy, Precision, Recall, and F1 score. (using recommended column as gold labels for this task) 
 
 **3.	Custom Data Labeling:**
-•	Worked on 1100 negative reviews to add custom labels manually based on common issues identified.
-•	Add custom topics using an open-source data labeling tool - Label Studio (https://labelstud.io/guide) by grouping negative reviews ex: Seat Comfort, Flights Delays and Cancellations, Food and beverage, etc.
+* Worked on 1100 negative reviews to add custom labels manually based on common issues identified.
+* Add custom topics using an open-source data labeling tool - Label Studio (https://labelstud.io/guide) by grouping negative reviews ex: Seat Comfort, Flights Delays and Cancellations, Food and beverage, etc.
 
 **4.	Topic Modeling:**
-•	Get topics for the negative reviews from this task.  
-•	Model#1 used Latent Dirichlet Allocation (LDA). 
-•	Model#2 used BERTopic. 
-•	Evaluation metrics: coherence scores and topic diversity.  
+* Get topics for the negative reviews from this task.  
+* Model#1 used Latent Dirichlet Allocation (LDA). 
+* Model#2 used BERTopic. 
+* Evaluation metrics: coherence scores and topic diversity.  
  
 **5.	Evaluation and Comparison:** 
 Compare manual topics with BERT topics using: 
-•	BERT score (precision, recall, F1 score) 
+* BERT score (precision, recall, F1 score) 
  
 **6.	Future work:** 
 Explored generating recommendations/improvement suggestions based on identified topics using Flan/XL.  
